@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pameten Dom</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Паметен Дом
+        </h1>
+        <nav>
+            <h2>
+                <a href="pameten_dom.html">Почетна</a>
+            </h2>
+            <h2>
+                <a href="spalna.html">Спална</a>
+            </h2>
+            <h2>
+                <a href="dnevna.html">Дневна</a>
+            </h2>
+            <h2>
+                <a href="kujna.html">Кујна</a>
+            </h2>
+            <h2>
+                <a href="gradina.html">Градина</a>
+            </h2>
+        </nav>
+    </header>
+    <hr>
+    <section>
+        <section>
+            <h3>Температура</h3>
+            <p>
+                <label>Вредност <meter value="23" min="-5" max="50"></meter> 23&deg;C</label>
+            </p>
+            <p>
+                <label>Вклучен <input type="checkbox" value="true" checked></label>
+            </p>
+            <p>
+                <label>Батерија <meter value="24" max="100" min="1" low="10" high="30" optimum="90"></meter> 24%</label>
+            </p>
+        </section>
+        <section>
+            <h3>Светлина</h3>
+            <p>
+                <label>Вредност <progress value="200" max="2000" min="0"></progress> 200 lux</label>
+            </p>
+            <p>
+                <label>Вклучен <input type="checkbox" value="true" checked></label>
+            </p>
+            <p>
+                <label>Батерија <meter value="56" max="100" min="1" low="10" high="30" optimum="90"></meter> 56%</label>
+            </p>
+        </section>
+        <section>
+            <h3>Звук</h3>
+            <p>
+                <label>Вредност <meter value="20" max="120" min="0"></meter> 20 dB</label>
+            </p>
+            <p>
+                <label>Вклучен <input type="checkbox" value="true" checked></label>
+            </p>
+            <p>
+                <label>Батерија <meter value="96" max="100" min="1" low="10" high="30" optimum="90"></meter> 96%</label>
+            </p>
+        </section>
+    </section>
+    <hr>
+    <details>
+        <summary>Нотификации</summary>
+        <p>
+            Ниска батерија на сензорот за температура!
+        </p>
+    </details>
+</body>
+</html>
